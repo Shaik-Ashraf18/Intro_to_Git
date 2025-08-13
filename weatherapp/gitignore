@@ -4,6 +4,5 @@
 .settings/
 
 # Build directories
-
 target/
 out/
