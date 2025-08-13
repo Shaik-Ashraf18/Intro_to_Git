@@ -8,10 +8,14 @@ public class CurrentWeather {
 	{
 		// TODO Auto-generated method stub
         System.out.println("Currently the weather in nalgonda is cloudy and cloud");
+
         //i want not just print statement but the actual code
         System.out.println("Enter your city name");
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
+
+
+
 	}
 
 }
