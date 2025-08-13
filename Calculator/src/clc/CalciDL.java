@@ -1,5 +1,7 @@
 package clc;
 
+import java.util.Scanner;
+
 public class CalciDL {
 
 	
@@ -26,7 +28,10 @@ public class CalciDL {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Calci c=new Calci();   
-		int num=c.add(1,2);
+        Scanner sc=new Scanner(System.in);
+        int num1=sc.nextInt();
+        int num2=sc.nextInt();
+		int num=c.add(num1,num2);
 		System.out.println(num);
 		
 	}
